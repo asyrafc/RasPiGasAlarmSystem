@@ -1,4 +1,4 @@
-# R-Pi-Gas-Sensor
+# Raspberry Pi 2 Gas Sensor
 
 A Raspberry PI project to detect gas concentration status.
 
