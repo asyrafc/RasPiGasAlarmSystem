@@ -42,7 +42,7 @@ Hardware interfaces used:
 Hardware and sensors used:
 ==========================
 
-|List|
+|No.|List|
 |-|-------------------------|
 |1| Raspberry Pi 2 Model B. |
 |2| MQ-2 Gas Sensor. |
