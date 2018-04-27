@@ -8,6 +8,10 @@ How it works:
 2. If Gas leaks is detected Piezzo Buzzer(Alarm) will alert user by producing high pitched sound and will send SMS to registered phone    	 number and notify about the gas leaks.
 3. System will check for gas leaks every 1 second, a slight delay in detection might occur while the alarm is ringing as the program is 		 running on a single thread.
 
+OS used
+=======
+1. Raspbian 8.0 Jessie
+
 Language Used
 =============
 1. C Programming Language
@@ -37,7 +41,12 @@ Database Structure
 
 Hardware interfaces used:
 =========================
-
+|No.|Interface|Usage|
+|-|-------------------------|--|
+|1| UART | Serial AT-Command communication between Raspberry Pi <-> Sim900A GSM Module |
+|2| SPI | Grab analog data received from MCP3008 |
+|3| I2C | Enable communication between Raspberry Pi <-> 16x2 LCD |
+|4| ttyAMA0 | UART interface |
 
 Hardware and sensors used:
 ==========================
@@ -48,7 +57,7 @@ Hardware and sensors used:
 |2| MQ-2 Gas Sensor. |
 |3| Sim900A GSM Module. |
 |4| MCP3008 Analog to Digital Converter. |
-|5| 16x2 LED with I2C Backpack module. |
+|5| 16x2 LCD with I2C Backpack module. |
 |6| Piezzo Buzzer. |
 
 
