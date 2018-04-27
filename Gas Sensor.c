@@ -123,7 +123,7 @@ int main(void)
     //----- TX BYTES -----
     unsigned char tx_buffer[] = "\r";
     unsigned char tx_buffer1[] = "AT+CMGF=1\r\n";
-    unsigned char tx_buffer2[] = "AT+CMGS=\"+60175878715\"\r\n";
+    unsigned char tx_buffer2[] = "AT+CMGS=\"+60175XXXXXX\"\r\n";
     unsigned char tx_buffer3[100] = "WARNING!!! Gas Leakage Detected \nPPM is : ";
 	unsigned char tx_buffer5[] = "\r\n";
     unsigned char tx_buffer4[]="\032";
