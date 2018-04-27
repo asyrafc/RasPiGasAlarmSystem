@@ -18,16 +18,22 @@ Language Used
 
 Required Tools/Application
 ==========================
-1. Nginx web server
-2. PHP 5.0 or 7.0 fpm
-3. Mysql DB
-4. PHPMyAdmin
+
+|No.|Tool|
+|-|-------------------------|
+|1| Nginx web server |
+|2| PHP 5.0 or 7.0 fpm |
+|3| Mysql DB |
+|4| PHPMyAdmin |
 
 Required Dependencies/Libraries
 ===============================
-1. Wiring Pi
-2. Wiring Pi Dev
-3. Mysql.c
+
+|No.|Dependency|
+|-|-------------------------|
+|1| Wiring Pi |
+|2| Wiring Pi Dev |
+|3| Mysql.c |
 
 Database Structure
 ==================
