@@ -42,8 +42,9 @@ Hardware interfaces used:
 Hardware and sensors used:
 ==========================
 
-|1| Raspberry Pi 2 Model B. |
+|List|
 |-|-------------------------|
+|1| Raspberry Pi 2 Model B. |
 |2| MQ-2 Gas Sensor. |
 |3| Sim900A GSM Module. |
 |4| MCP3008 Analog to Digital Converter. |
