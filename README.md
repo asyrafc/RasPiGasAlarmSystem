@@ -30,6 +30,7 @@ Database Structure
 1. Database Name : alarmsystem
 2. Table Name : status
 3. Table Structure : 
+
 |         ID          | PPM  | Date/Time | Status |
 |---------------------|------|-----------|--------|
 | INT, auto-increment | text |   text    |  text  |
