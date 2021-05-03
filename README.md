@@ -5,7 +5,7 @@ A Raspberry PI project to detect gas concentration status.
 How it works:
 =============
 1. System will contantly monitor gas PPM concentration and store data in database(will delete all data every 24 hours to save space).
-2. If Gas leaks is detected Piezzo Buzzer(Alarm) will alert user by producing high pitched sound and will send SMS to registered phone    	 number and notify about the gas leaks.
+2. If Gas leaks is detected, Piezzo Buzzer(Alarm) will alert user by producing high pitched sound and will send SMS to registered phone    	 number and notify about the gas leaks.
 3. System will check for gas leaks every 1 second, a slight delay in detection might occur while the alarm is ringing as the program is 		 running on a single thread.
 
 OS used
